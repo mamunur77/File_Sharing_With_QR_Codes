@@ -9,6 +9,13 @@ The project utilizes Python modules such as `http.server` for setting up the ser
 
 This approach not only simplifies file sharing within local networks but also serves as an educational example of how Python can be used to build lightweight, yet powerful, networking applications. The project demonstrates a practical implementation of a local server that integrates network programming and quick response (QR) code technology for an improved user experience.ile sharing for small-scale, on-the-fly use cases.
 
+
+
+
+
+
+
+
  
 Problem Statement:
 
@@ -47,7 +54,15 @@ C) Local Network Sharing without Internet:
 •	Dependence on Internet or Specialized Applications: Many current file-sharing solutions depend on internet access or proprietary applications, which may not be feasible in offline or restricted network environments.
 
 •	Limited Focus on User-Friendly, Lightweight Solutions: Existing projects focus on either complex setups or require additional software, leaving a gap for a lightweight, easy-to-implement solution using readily available tools and technologies.
- 
+
+
+
+
+
+
+
+
+ 
 Methodology 
 
 1.Design and Framework:
@@ -168,7 +183,16 @@ Step 6: Deployment and Usage
 •	Optionally customize the code to include additional features, such as logging or password protection.
 This implementation ensures the project is straightforward, user-friendly, and functional for local file sharing tasks.
 
- 
+
+
+
+
+
+
+
+
+
+ 
 Results and Discussion
 A.Findings
 1.	Server Setup and Accessibility:
@@ -197,17 +221,22 @@ QR Code Load Time	Instant (automatically opens in the browser upon generation).
 Maximum Concurrent Users	Limited by single-threaded server capabilities (~10 users for small files).
 
 
-
-
-
-
 C.Visual Representation
 1. QR Code for Server Access
 •	The generated QR code provides a convenient and user-friendly way to access the server.
 2. Server File Interface
 •	The server lists all files in the directory for easy navigation (a screenshot or graphical mock-up would be included here).
 
- 
+
+
+
+
+
+
+
+
+
+ 
 Conclusion
 This project successfully demonstrates the implementation of a lightweight, local HTTP file server using Python. By leveraging standard libraries and minimal third-party dependencies, it provides a simple and effective solution for sharing files across devices on the same network. The addition of a dynamically generated QR code makes the server more accessible, particularly for non-technical users.
 Key Achievements
